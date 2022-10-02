@@ -1,9 +1,9 @@
 #include <stdio.h>
-int rem(int x,int y)
+int nextEdge(int ed1,int ed2)
 {
-    return x%y;
+    return (ed1+ed2)-1;
 }
 int main() {
-   printf("%d",rem(101,29));
+   printf("%d",nextEdge(8, 10));
    return 0;
 }
