@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-int footballPoints(int x,int y,int z){
+int animals(int x,int y,int z){
    return x*2+y*4+z*4;
 }
 int main() {
@@ -11,6 +11,6 @@ int main() {
    scanf("%d",&b);
    printf("Enter number of pigs:");
    scanf("%d",&c);
-   printf("%d \n",footballPoints(a,b,c));
+   printf("%d \n",animals(a,b,c));
    return 0;
 }
